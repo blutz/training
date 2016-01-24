@@ -4,6 +4,9 @@ web:
     - "postgres"
   ports:
     - "8080:8080"
+  # FOR DEVELOPMENT:
+  volumes:
+    - "./src:/src"
 postgres:
   image: "postgres:latest"
   volumes_from:
