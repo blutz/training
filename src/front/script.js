@@ -3,4 +3,7 @@ var ReactDOM = require('react-dom');
 
 var reactMount = document.getElementById('react-mount');
 
-alert('hi');
+ReactDOM.render(
+  <h1>Hello World</h1>,
+  reactMount
+);
